@@ -1,0 +1,66 @@
+.hide {
+  display: none;
+}
+
+.container {
+  margin: 50px 200px;
+}
+
+.titulo {
+  color: #AE200E;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contents {
+  border: 0;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs button {
+  background-color: #ffffff;
+  border: 2px solid #F73228;
+  color: #AE200E;
+  cursor: pointer;
+  flex-grow: 1;
+  font-size: 1.25rem;
+  font-weight: bold;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: all .5s;
+}
+
+.tabs button.ativa {
+  color: #ffffff;
+  background-color: #F73228;
+}
+
+.contents {
+  border: 2px solid #F73228;
+  min-height: 300px;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form input {
+  padding: 10px;
+  border: 2px solid #F73228;
+}
+
+.form button {
+  padding: 10px;
+  background-color: #F73228;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+}
